@@ -1,0 +1,12 @@
+{
+  "folders": [
+    {
+      "name": "rap-names-express-main",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.fontSize": 14,
+    "terminal.integrated.fontSize": 14
+  }
+}
