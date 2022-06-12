@@ -79,6 +79,7 @@ app.delete("/deleteRapper", (request, response) => {
     .catch((error) => console.error(error));
 });
 
+//listen for port
 app.listen(process.env.PORT || PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
