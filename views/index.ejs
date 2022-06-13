@@ -26,7 +26,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
       </head>
-      <body class="">
+      <body class="container">
 
         <div class="container py-5 h-100 ">
           <div class="row d-flex justify-content-center align-items-center h-100">
@@ -35,15 +35,18 @@
               <div class="card" style="border-radius: 15px;">
                 <div class="card-body p-5">
       
-                  <h2 class="mb-3">Add Task</h2>
-      
-                  <form action="/addItem" method="POST" class="d-flex justify-content-center align-items-center mb-4">
+                  <h2 class="mb-3 text-center">Add Task</h2>
+                  <div class="d-flex justify-content-center align-items-center mb-4"> 
+                    <form action="/addItem" method="POST" class="d-flex justify-content-center align-items-center mb-4">
                     <div class="form-outline flex-fill">
                       <input required name="task" placeholder="What do you need to do?" type="text" id="form3" class="form-control form-control-lg" />
                       <input required name="date" class="form-control form-control-lg" type="date">
                     </div>
-                    <input type="submit" class="btn btn-primary btn-lg ms-2"></input>
-                  </form>
+                    <div class="ms-2 submit-btn">
+                      <input type="submit" class="btn submit-btn btn-primary btn-lg"></input>
+                    </div>
+                  </form></div>
+                 
       
                   <ul class="list-group mb-0 tasks">
                     <% for(let i=0; i < info.length; i++) {%>
