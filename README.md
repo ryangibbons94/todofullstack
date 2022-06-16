@@ -10,9 +10,6 @@
 **Tech used:** Node.js, Express, EJS, Bootstrap
 
 ## Optimizations
-If I had time I would add a put request to update something to make it a full CRUD app rather than a CRD app.
+If I had time I would add a put request to update something to make it a full CRUD app rather than a CRD app. I would also set up a better MVC format for my file structure. 
 
-## Challenges Faced/Lessons Learned:
 
-1. Allowing the user to see the point going up on the graph as they are clicking:
- 
