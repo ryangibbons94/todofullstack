@@ -1,6 +1,6 @@
 # todofullstack
 
-**Link to Live Site: https://todo-fully-stacked.herokuapp.com/
+**Link to Live Site:** https://todo-fully-stacked.herokuapp.com/
 
 
 ![screenshot of website](./todolist.gif)
